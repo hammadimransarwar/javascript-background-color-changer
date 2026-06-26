@@ -2,19 +2,19 @@
 
 This is a fun, lightweight web app I built to practice my frontend skills. It lets users instantly change the page's background color by clicking on different colored blocks, with a clean reset option to go back to the original style. 
 
-I designed it with a mobile-first mindset, using CSS media queries to ensure the entire layout scales down beautifully on smaller screens without overflowing or feeling cramped.
+I built the layout using Flexbox, allowing the entire interface to adapt naturally and look great on both desktop monitors and mobile phones.
 
 ## ✨ Features
 * **Instant Color Changes:** Click on the green, blue, or orange boxes to change the entire page background dynamically.
 * **Reset Button:** A dedicated button to clear the color and instantly reset the app back to its default clean slate.
-* **Fully Responsive:** Styled with Flexbox and custom media breakpoints so it looks sharp on both desktop monitors and mobile phones.
+* **Fluid Layout:** Styled completely with Flexbox so the elements adjust dynamically to different screen sizes without breaking.
 
 ## 🛠️ Built With
 * HTML5 (Semantic Structure)
-* CSS3 (Flexbox & Media Queries)
+* CSS3 (Flexbox & Layout Styling)
 * Vanilla JavaScript
 
 ## 💡 Key Takeaways from This Project
 * **DOM Manipulation:** Learned how to grab HTML elements using `document.querySelector` and dynamically update global inline styles like `document.body.style.backgroundColor`.
-* **Responsive CSS:** Gained hands-on experience using `@media` rules to dynamically scale down box dimensions, spacing, and border-widths so elements don't wrap awkwardly on mobile viewports.
+* **Flexible Design:** Gained hands-on experience using Flexbox properties to create fluid layouts that adapt gracefully to different viewports without needing heavy media queries.
 * **Event Handlers:** Mastered attaching `.addEventListener("click", ...)` to multiple interactive elements to trigger distinct browser actions.
